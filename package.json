@@ -1,0 +1,1 @@
+{"name":"gowithskill-customer-intake","private":true,"type":"module","scripts":{"dev":"wrangler dev","deploy":"wrangler deploy","test":"node --test","check":"node --check src/worker.js && node --check public/app.js && node --check public/schema.js"},"devDependencies":{"jsdom":"^28.1.0","wrangler":"^4.0.0"}}

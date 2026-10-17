@@ -1,0 +1,16 @@
+node_modules/
+.wrangler/
+.dev.vars
+.env*
+!*.example
+# One-off local editing helpers
+/add-email.mjs
+/domain-details.mjs
+/fix-progress.mjs
+/package-tests.mjs
+/redesign.mjs
+/refine-instructions.mjs
+/restore-progress.mjs
+/simplify-packages.mjs
+/simplify.mjs
+/submission-checks.mjs

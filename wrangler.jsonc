@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "gowithskill-customer-intake",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-10-17",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": [
+      "/api/*"
+    ]
+  },
+  "vars": {
+    "TURNSTILE_SITE_KEY": "",
+    "NOTIFICATION_EMAIL": "contact@gowithskill.com"
+  }
+}
